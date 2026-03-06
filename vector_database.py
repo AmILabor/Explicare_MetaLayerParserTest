@@ -18,7 +18,7 @@ from nltk.corpus import stopwords
 from string import punctuation
 import re, json
 
-# some stuff legacy
+#  some stuff legacy
 
 openai_cloud = openai
 openai_cloud.api_key = 'OPENAIKEY'  # Ersetze durch deinen tatsächlichen API-Schlüssel
