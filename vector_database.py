@@ -18,10 +18,6 @@ from nltk.corpus import stopwords
 from string import punctuation
 import re, json
 
-# https://ana-ds-v2.explicarenext.preprod.technology.de
-# test-admin@example.com
-# admin1234
-
 # some stuff legacy
 
 openai_cloud = openai
