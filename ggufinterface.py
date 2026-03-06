@@ -759,8 +759,8 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Konfigurationsparameter für das Modell")
 
     parser.add_argument("--role_name", type=str, default="assistant")
-    parser.add_argument("--model_name", type=str, default="MaziyarPanahi/Mistral-Nemo-Instruct-2407-GGUF")
-    parser.add_argument("--filename", type=str, default="Mistral-Nemo-Instruct-2407.Q8_0.gguf")
+    parser.add_argument("--model_name", type=str, default="bartowski/phi-4-GGUF")
+    parser.add_argument("--filename", type=str, default="phi-4-Q8_0.gguf")
     parser.add_argument("--model", type=str, default=None, choices=["nemo", "qwen", "llama", "mixtral", "phi"])
     parser.add_argument("--initial_message", type=str, default="Du bist ein hilfreicher Assistent, der nur auf deutsch Anfragen beantwortet.")
     parser.add_argument("--vectorize", default=False, action="store_true")

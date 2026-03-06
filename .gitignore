@@ -8,3 +8,4 @@ ggufinterface2.py
 meta-layer-parser.py
 test.ipynb
 test.py
+vector_database.py
