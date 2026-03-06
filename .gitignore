@@ -1,0 +1,10 @@
+#Ordner 
+__pycache__/
+results/
+tools/
+
+#Dateien
+ggufinterface2.py
+meta-layer-parser.py
+test.ipynb
+test.py
